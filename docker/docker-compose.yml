@@ -1,0 +1,31 @@
+services:
+  nginx:
+    image: nginx
+    container_name: nginx-server
+    ports:
+      - "8080:80"
+    networks:
+      - company-network
+
+  postgres:
+    image: postgres:16
+    container_name: postgres-db
+    environment:
+      POSTGRES_PASSWORD: password
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - company-network
+
+  redis:
+    image: redis
+    container_name: redis-server
+    networks:
+      - company-network
+
+networks:
+  company-network:
+
+volumes:
+  postgres-data:
+

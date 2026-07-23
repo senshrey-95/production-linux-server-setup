@@ -1,0 +1,9 @@
+/opt/company-app/logs/company-app.log {
+  daily
+  rotate 7
+  compress
+  missingok
+  notifempty
+  create 644 shreyasi shreyasi
+  su shreyasi shreyasi
+}
