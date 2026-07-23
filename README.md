@@ -229,6 +229,80 @@ Examples include:
 
 ---
 
+---
+
+# 📸 Project Screenshots
+
+## 1. Server Information
+
+![Server Information](screenshots/01-server-info.png)
+
+---
+
+## 2. Nginx Web Server
+
+![Nginx](screenshots/02-nginx-running.png)
+
+---
+
+## 3. Docker
+
+![Docker](screenshots/03-docker-services.png)
+
+---
+
+## 4. Docker Compose
+
+![Docker Compose](screenshots/04-docker-compose.png)
+
+---
+
+## 5. Systemd Service
+
+![Systemd](screenshots/05-systemd-service.png)
+
+---
+
+## 6. UFW Firewall
+
+![UFW](screenshots/06-firewall-ufw.png)
+
+---
+
+## 7. Fail2Ban
+
+![Fail2Ban](screenshots/07-fail2ban.png)
+
+---
+
+## 8. Automated Backup
+
+![Backup](screenshots/08-backup-created.png)
+
+---
+
+## 9. Backup Script
+
+![Backup Script](screenshots/09-backup-script.png)
+
+---
+
+## 10. Monitoring Scripts
+
+![Monitoring](screenshots/10-monitoring-scripts.png)
+
+---
+
+## 11. Logrotate
+
+![Logrotate](screenshots/11-logrotate.png)
+
+---
+
+## 12. Running Services
+
+![Services](screenshots/12-running-services.png)
+
 # 👩‍💻 Author
 
 **Shreyasi Sen**
