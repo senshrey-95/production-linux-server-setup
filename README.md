@@ -291,7 +291,7 @@ Examples include:
 
 ![Monitoring](screenshots/10-monitoring-script(1).png)
 
-![Monitoring](screenshots/10-monitoring-script(2).png)
+![Monitoring](screenshots/10-monitoring-scripts(2).png)
 
 ---
 
