@@ -48,3 +48,218 @@ It focuses on practical system administration tasks that are commonly performed 
 - ✅ Logrotate
 - ✅ Monitoring Scripts
 - ✅ Automated Backups
+
+- ---
+
+# 🏗️ Architecture
+
+The following diagram illustrates the overall architecture of the server environment.
+
+> **Note:** A graphical architecture diagram will be added in the `architecture/` directory.
+
+```text
+                   Internet
+                        │
+        ┌───────────────┴───────────────┐
+        │                               │
+    SSH (22)                       HTTP (80)
+        │                               │
+        ▼                               ▼
++----------------------------------------------+
+|          Ubuntu Linux Production Server      |
++----------------------------------------------+
+|                                              |
+|  • Nginx Web Server                          |
+|  • Docker Engine                             |
+|  • Docker Compose                            |
+|  • systemd Services                          |
+|  • Cron Jobs                                 |
+|  • Logrotate                                 |
+|  • Monitoring Scripts                        |
+|                                              |
++----------------------------------------------+
+                │
+                ▼
+      Automated Backup Scripts
+                │
+                ▼
+         Compressed Backups
+```
+
+---
+
+# 📂 Project Structure
+
+```text
+production-linux-server-setup/
+├── architecture/
+├── assets/
+├── cron/
+├── docker/
+├── docs/
+├── logrotate/
+├── nginx/
+├── screenshots/
+├── scripts/
+├── ssh/
+├── systemd/
+└── README.md
+```
+
+---
+
+# ⚙️ Technologies Used
+
+| Category | Technologies |
+|----------|--------------|
+| Operating System | Ubuntu Linux 22.04 |
+| Web Server | Nginx |
+| Containers | Docker, Docker Compose |
+| Scripting | Bash |
+| Automation | Cron |
+| Service Management | systemd |
+| Log Management | Logrotate |
+| Security | UFW, Fail2Ban |
+| Version Control | Git & GitHub |
+
+---
+
+# 🔒 Security Hardening
+
+This project includes:
+
+- SSH configuration
+- User and group management
+- Linux file permissions
+- UFW firewall
+- Fail2Ban intrusion prevention
+- Service management with systemd
+
+---
+
+# 🐳 Docker & Docker Compose
+
+Implemented:
+
+- Docker installation
+- Docker Compose
+- Multi-container deployment
+- Docker networking
+- Persistent volumes
+
+---
+
+# 🌐 Nginx
+
+Configured:
+
+- Custom Virtual Host
+- Static website hosting
+- Configuration testing
+- Local HTTP validation
+
+---
+
+# ⚙️ systemd
+
+Created a custom service:
+
+- hello.service
+
+Demonstrated:
+
+- Start service
+- Stop service
+- Enable service
+- View logs using journalctl
+
+---
+
+# 📊 Monitoring Scripts
+
+Custom Bash scripts monitor:
+
+- CPU Usage
+- Memory Usage
+- Disk Usage
+- Overall System Health
+
+---
+
+# 💾 Backup Automation
+
+Implemented:
+
+- Backup Bash script
+- Cron scheduling
+- Compressed archives
+- Backup verification
+
+---
+
+# 📄 Log Rotation
+
+Configured using Logrotate:
+
+- Daily rotation
+- Compression
+- Automatic cleanup
+- File retention policy
+
+---
+
+# 📷 Screenshots
+
+Screenshots demonstrating the project are stored in the `screenshots/` directory.
+
+Examples include:
+
+- Linux Server
+- Docker
+- Docker Compose
+- Nginx
+- UFW
+- Fail2Ban
+- Monitoring
+- Backup
+- Logrotate
+- systemd
+
+---
+
+# 🧠 Skills Demonstrated
+
+- Linux Administration
+- Bash Scripting
+- Docker
+- Docker Compose
+- Nginx
+- Git
+- GitHub
+- SSH
+- UFW
+- Fail2Ban
+- systemd
+- Cron Jobs
+- Logrotate
+- Monitoring & Automation
+
+---
+
+# 🚀 Future Improvements
+
+- HTTPS using Let's Encrypt
+- GitHub Actions CI/CD
+- Terraform Infrastructure
+- Kubernetes Deployment
+- Prometheus Monitoring
+- Grafana Dashboard
+- Ansible Automation
+
+---
+
+# 👩‍💻 Author
+
+**Shreyasi Sen**
+
+GitHub: https://github.com/senshrey-95
