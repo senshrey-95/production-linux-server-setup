@@ -22,7 +22,7 @@ Monitoring, Backup Automation, Log Rotation, and System Services.
 -   🐳 Docker & Docker Compose configuration
 -   📜 Bash automation scripts
 -   📸 12+ implementation screenshots
--   📈 40+ Git commits documenting project progress
+-   📈 Git version control with incremental project development
 
 ------------------------------------------------------------------------
 
@@ -129,7 +129,7 @@ git clone https://github.com/senshrey-95/production-linux-server-setup.git
 cd production-linux-server-setup
 ```
 
-### Follow the modules
+### Project Workflow
 
 Complete the project in the following order:
 
@@ -168,7 +168,7 @@ repository.
 
 ## 🏗️ Architecture
 
-The following diagram illustrates the overall architecture.
+The following architecture diagram illustrates the major components and services configured throughout this project.
 
 ``` html
 <p align="center">
@@ -227,7 +227,7 @@ production-linux-server-setup/
 
 ## 🐳 Docker & Docker Compose
 
-Implemented:
+Demonstrated:
 
 -   Docker installation
 -   Docker Compose
@@ -239,12 +239,12 @@ Implemented:
 
 ## 🌐 Nginx
 
-Configured:
+Implemented:
 
--   Custom Virtual Host
--   Static website hosting
--   Configuration testing
--   Local HTTP validation
+- Custom Virtual Host configuration
+- Static website hosting
+- Configuration validation using `nginx -t`
+- Local HTTP testing with `curl`
 
 ------------------------------------------------------------------------
 
@@ -391,7 +391,7 @@ This project strengthened my practical understanding of:
 -   SSH hardening
 -   Service management using systemd
 -   Nginx configuration
--   Docker fundamentals
+-   Containerization using Docker
 -   Firewall configuration with UFW
 -   Intrusion prevention using Fail2Ban
 -   Automation with Bash and Cron
@@ -402,8 +402,7 @@ This project strengthened my practical understanding of:
 
 ## 📄 License
 
-This project is licensed under the MIT License. Update this section if
-your repository uses a different license.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ------------------------------------------------------------------------
 
