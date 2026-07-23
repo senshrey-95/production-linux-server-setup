@@ -53,41 +53,12 @@ It focuses on practical system administration tasks that are commonly performed 
 
 # 🏗️ Architecture
 
-The following diagram illustrates the overall architecture of the server environment.
+The following diagram illustrates the overall architecture of the production Linux server.
 
-> **Note:** A graphical architecture diagram will be added in the `architecture/` directory.
-
-```text
-                   Internet
-                        │
-        ┌───────────────┴───────────────┐
-        │                               │
-    SSH (22)                       HTTP (80)
-        │                               │
-        ▼                               ▼
-+----------------------------------------------+
-|          Ubuntu Linux Production Server      |
-+----------------------------------------------+
-|                                              |
-|  • Nginx Web Server                          |
-|  • Docker Engine                             |
-|  • Docker Compose                            |
-|  • systemd Services                          |
-|  • Cron Jobs                                 |
-|  • Logrotate                                 |
-|  • Monitoring Scripts                        |
-|                                              |
-+----------------------------------------------+
-                │
-                ▼
-      Automated Backup Scripts
-                │
-                ▼
-         Compressed Backups
-```
-
----
-
+<p align="center">
+  <img src="architecture/architecture-diagram.png" alt="Production Linux Server Architecture" width="1000">
+</p>
+                  
 # 📂 Project Structure
 
 ```text
