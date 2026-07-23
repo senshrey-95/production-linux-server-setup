@@ -289,7 +289,7 @@ Examples include:
 
 ## 10. Monitoring Scripts
 
-![Monitoring](screenshots/10-monitoring-scripts.png)
+![Monitoring](screenshots/10-monitoring-scripts(1).png)
 
 ---
 
